@@ -1,0 +1,14 @@
+.red{color: red;}
+
+#wraper1{ border: green 3px dashed;
+margin: 3px;
+color: green;}
+
+#border {border: yellow 3px dashed;
+margin: 6px;
+color: yellow;
+padding: 20px;}
+
+body {background-color: blue;
+border: black 10px solid;
+margin: 5px}
