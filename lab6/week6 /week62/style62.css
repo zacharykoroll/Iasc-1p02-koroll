@@ -1,0 +1,12 @@
+body{background:green; }
+
+#wrapper{background-color:purple; width: 1000px; height: 1000px; margin: 0 auto; }
+
+
+#header{background-color: red; text-align: centre;  height: 100px; text-align: center; }
+
+
+#leftbody{background-color: grey; width: 400px; height:200px ; float: left;}
+#rightbody{background-color: blue ; width: 600px; height: 200px; float: left;}
+#body{background-color: purple ; width: 1000px; height: 400px; clear: both;z-index: 1000}
+#footer{background-color: yellow; width: 1000px; height: 100px; z-index: 10001; }

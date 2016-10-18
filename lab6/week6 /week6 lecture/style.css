@@ -1,0 +1,12 @@
+body{background:white }
+
+#wrapper{width: 1000px; height: 1000px; background-color: white; color: white;}
+
+#header{background-color: red; height: 100px; width: 1000px; text-align: center;
+ }
+
+
+#content{background-color: green; width: 1000; height: 500; color: white;}
+
+#footer{background-color: red; width: 1000; height: 100px;
+text-align: center; color: white; }
