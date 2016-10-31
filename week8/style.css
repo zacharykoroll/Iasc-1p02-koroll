@@ -1,0 +1,13 @@
+#logo{ height: 200px;
+}
+#logo1{position: center; margin: 0 auto}
+body{background: beige;}
+.redline{background-color:red ; width: 95%; height:20px ; float: center; margin: 30px}
+.a1{text-align: center; }
+
+.box{background-color: gray; height: 60px; width: 100px; margin: 3px; position: absolute left: 20px}
+.boxes{float: left}
+
+.para{height: 400px; width: 60%; text-align: center; position: absolute; right: 300px
+}
+.para1{float: right; }
