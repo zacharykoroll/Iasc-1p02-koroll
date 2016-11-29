@@ -1,0 +1,6 @@
+.java{color: grey;
+outline: 1px, black;}
+
+body{ background: grey;
+}
+button :hover{background-color: red;}
