@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)http://www.rowfluidesign.com/html/blueMax_Single.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	
+    <title>Fluidesign • Fluid BlueMax Single</title>
+    <meta name="description" content=".">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale = 1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Fluidesign is an elite and club shell manufacturer in London, Ontario, that has set world records and won golds since 1999.">
+    <meta name="keywords" content="Fluidesign, fluidesign, fluid, Fluid, design, Design, Gord Henry, gord, Gord, henry, Henry, rowing, Rowing, shells, Shells, rowing shells, competitve, competitive rowing, racing shells, rowing london, london, ontario, row, rowfluidesign">
+    <meta name="location" content="London, Ontario, Canada">
+	<meta name="language" content="English">
+	<meta name="author" content="Pilot Concepts">
+	<meta name="copyright" content="2016">
+    
+    <link rel="shortcut icon" href="http://www.rowfluidesign.com/favicon.ico">
+
+    <link href="./Fluidesign • Fluid BlueMax Single_files/css" rel="stylesheet" type="text/css">
+    <link href="./Fluidesign • Fluid BlueMax Single_files/css(1)" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./Fluidesign • Fluid BlueMax Single_files/main.css">
+    <link href="./Fluidesign • Fluid BlueMax Single_files/detailsPics.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./Fluidesign • Fluid BlueMax Single_files/1140.css">
+    <link rel="stylesheet" href="./Fluidesign • Fluid BlueMax Single_files/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./Fluidesign • Fluid BlueMax Single_files/common.css">
+    <link rel="stylesheet" type="text/css" href="./Fluidesign • Fluid BlueMax Single_files/default.css">
+    <link rel="stylesheet" href="./Fluidesign • Fluid BlueMax Single_files/normalize.css">
+
+	<script src="./Fluidesign • Fluid BlueMax Single_files/modernizr-2.6.2.min.js"></script>
+	<script type="text/javascript" async="" src="./Fluidesign • Fluid BlueMax Single_files/embed.js"></script>
+    <script type="text/javascript" src="./Fluidesign • Fluid BlueMax Single_files/jquery.min.js"></script>
+    <script type="text/javascript" src="./Fluidesign • Fluid BlueMax Single_files/jquery.iosslider.js"></script>
+    <script type="text/javascript" src="./Fluidesign • Fluid BlueMax Single_files/jquery.iosslider.min.js"></script>
+    <script type="text/javascript" src="./Fluidesign • Fluid BlueMax Single_files/jquery.easing-1.3.js"></script>
+    
+	<!--RESPONSIVE NAV SCRIPT-->
+	<script>
+        $(function() {
+            var pull 		= $('#pull');
+                    menu 		= $('nav ul');
+    
+            $(pull).on('click', function(e) {
+                e.preventDefault();
+                menu.slideToggle();
+            });
+            
+            $(window).resize(function(){
+                var w = $(this).width();
+    
+                if(w > 800 && menu.is(':hidden')) {
+                    menu.removeAttr('style');
+                }
+            });
+    
+            $('li').on('click', function(e) {				
+                var w = $(window).width();
+                if(w < 800 ) {
+                    menu.slideToggle();
+                }
+            });
+    
+            $('.panel').height($(window).height());
+            
+        });
+    </script>
+    <!--END OF RESPONSIVE NAV SCRIPT-->
+    
+    <!--HERO ROTATOR SCRIPT-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			
+			$('.iosSlider').iosSlider({
+					desktopClickDrag: true,
+					snapToChildren: true,
+					infiniteSlider: true,
+					snapSlideCenter: true,
+					navSlideSelector: '.selectors .item',
+					navPrevSelector: '.sliderContainer .slideSelectors .prev',
+					navNextSelector: '.sliderContainer .slideSelectors .next',
+					onSlideComplete: slideComplete,
+					onSliderLoaded: sliderLoaded,
+					onSlideChange: slideChange,
+					autoSlide: true,
+					autoSlideTimer: 2000,
+					scrollbar: true,
+					scrollbarContainer: '.sliderContainer .scrollbarContainer',
+					scrollbarMargin: '0',
+					scrollbarBorderRadius: '0',
+					keyboardControls: true
+				});
+			
+		}); 
+		
+		function slideChange(args) {
+			
+			$('.selectors .item').removeClass('selected');
+			$('.selectors .item:eq(' + (args.currentSlideNumber - 1) + ')').addClass('selected');
+			
+		}
+		
+		function slideComplete(args) {
+			
+			if(!args.slideChanged) return false;
+				
+			$(args.sliderObject).find('.text1, .text2').attr('style', '');
+			
+			$(args.currentSlideObject).find('.text1').animate({
+				left: '30px',
+				opacity: '1'
+			}, 700, 'easeOutQuint');
+			
+			$(args.currentSlideObject).find('.text2').delay(200).animate({
+				left: '30px',
+				opacity: '1'
+			}, 600, 'easeOutQuint');
+			
+		}
+		
+		function sliderLoaded(args) {
+				
+			$(args.sliderObject).find('.text1, .text2').attr('style', '');
+			
+			$(args.currentSlideObject).find('.text1').animate({
+				left: '30px',
+				opacity: '1'
+			}, 700, 'easeOutQuint');
+			
+			$(args.currentSlideObject).find('.text2').delay(200).animate({
+				left: '30px',
+				opacity: '1'
+			}, 600, 'easeOutQuint');
+			
+			slideChange(args);
+			
+		}
+	</script>
+    <!--END OF HERO ROTATOR SCRIPT-->
+    
+    <script>
+    	$(document).ready(function() {
+		  $('a[href^="#"]').click(function() {
+			  var target = $(this.hash);
+			  if (target.length == 0) target = $('a[name="' + this.hash.substr(1) + '"]');
+			  if (target.length == 0) target = $('html');
+			  $('html, body').animate({ scrollTop: target.offset().top-130 }, 1000);
+			  return false;
+		  });
+		});
+    </script>
+
+</head>
+
+<body style="">
+
+<!--NAV SECTION-->
+
+	<section id="nav">
+    	<logo>
+        	<ul class="logo">
+        		<li><a href="http://www.rowfluidesign.com/index.html"><img src="./Fluidesign • Fluid BlueMax Single_files/fluid_logo_220x90_blue.png"></a></li>
+           	</ul>
+        </logo>
+    	<nav class="clearfix">
+            <ul class="clearfix">
+                <li><a href="http://www.rowfluidesign.com/index.html">Fluidesign Boats</a></li>
+                <li><a href="http://www.rowfluidesign.com/html/about.html">About Us</a></li>
+                <li><a href="http://www.rowfluidesign.com/html/support.html">Support</a></li>
+                <li><a href="http://www.rowfluidesign.com/html/resale.html">Resale</a></li>
+                <li><a href="http://www.rowfluidesign.com/index.html#contact">Contact Us</a></li>
+            </ul>
+            <a href="javascript:;" id="pull">Menu</a>
+        </nav>
+	</section>
+    
+<!--END OF NAV SECTION-->
+
+<section id="buffer" class="clearfix"></section>
+
+<!--HERO SECTION-->
+
+	<section id="hero">
+    	<div class="container">
+			
+			<div class="iosSlider" style="position: relative; top: 0px; left: 0px; overflow: hidden; z-index: 1; perspective: 1000px; backface-visibility: hidden; width: 1408px; height: 380px;">
+			
+				<div class="slider" style="position: relative; cursor: -webkit-grab; backface-visibility: hidden; width: 9856px; transform: matrix(1, 0, 0, 1, -14080, 0);">
+                    
+                    <div class="item item1" style="width: 1408px; overflow: hidden; position: absolute; transform: matrix(1, 0, 0, 1, 9856, 0); backface-visibility: hidden;">
+                        <div class="inner">
+                            <img src="./Fluidesign • Fluid BlueMax Single_files/BlueMax1xSlider1.jpg">
+                            <div class="text1" style=""><span>BLUE MAX</span></div>                
+                            <div class="text2" style=""><span><i class="fa fa-angle-right"></i>World Class performance</span></div>
+                        </div>
+                    </div>
+                    
+                    <div class="item item2" style="width: 1408px; overflow: hidden; position: absolute; transform: matrix(1, 0, 0, 1, 11264, 0); backface-visibility: hidden;">
+                        <div class="inner">
+                            <img src="./Fluidesign • Fluid BlueMax Single_files/BlueMax1xSlider2.jpg">
+                        </div>
+                    </div>
+                    
+                    <div class="item item3" style="width: 1408px; overflow: hidden; position: absolute; transform: matrix(1, 0, 0, 1, 12672, 0); backface-visibility: hidden;">
+                        <div class="inner">
+                            <img src="./Fluidesign • Fluid BlueMax Single_files/BlueMax1xSlider3.jpg">
+                        </div>
+                    </div>
+                    
+                    <div class="item item4" style="width: 1408px; overflow: hidden; position: absolute; transform: matrix(1, 0, 0, 1, 14080, 0); backface-visibility: hidden;">
+                        <div class="inner">
+                            <img src="./Fluidesign • Fluid BlueMax Single_files/BlueMax1xSlider4.jpg">
+                        </div>
+                    </div>
+                    
+                    <div class="item item5" style="width: 1408px; overflow: hidden; position: absolute; transform: matrix(1, 0, 0, 1, 15488, 0); backface-visibility: hidden;">
+                        <div class="inner">
+                            <img src="./Fluidesign • Fluid BlueMax Single_files/BlueMax1xSlider5.jpg">
+                        </div>
+                    </div>
+                    
+                    <div class="item item5" style="width: 1408px; overflow: hidden; position: absolute; transform: matrix(1, 0, 0, 1, 16896, 0); backface-visibility: hidden;">
+                        <div class="inner">
+                            <img src="./Fluidesign • Fluid BlueMax Single_files/BlueMax1xSlider6.jpg">
+                        </div>
+                    </div>
+                    
+                    <div class="item item5" style="width: 1408px; overflow: hidden; position: absolute; transform: matrix(1, 0, 0, 1, 18304, 0); backface-visibility: hidden;">
+                        <div class="inner">
+                            <img src="./Fluidesign • Fluid BlueMax Single_files/BlueMax1xSlider7.jpg">
+                        </div>
+                    </div>
+				
+				</div>
+				
+				<div class="selectorsBlock">
+				
+					<div class="selectors">
+						<div class="item first" style="cursor: pointer;"></div>
+						<div class="item" style="cursor: pointer;"></div>
+						<div class="item" style="cursor: pointer;"></div>
+						<div class="item selected" style="cursor: pointer;"></div>
+                        <div class="item" style="cursor: pointer;"></div>
+                        <div class="item" style="cursor: pointer;"></div>
+                        <div class="item" style="cursor: pointer;"></div>
+					</div>
+					
+				</div>
+
+			<i class="i5667" style="position: absolute; right: 10px; bottom: 10px; z-index: 1000; font-style: normal; background: rgb(255, 255, 255); opacity: 0.2;"> </i><i class="i5667" style="position: absolute; right: auto; bottom: auto; z-index: 1000; font-style: normal; background: rgb(255, 255, 255); opacity: 0.2; top: 10px; left: 10px;"> </i></div>
+						
+		</div>	
+    </section>
+
+<!--END OF HERO SECTION-->
+
+<!-- OPTIONS SECTION-->
+
+    <section class="section options" id="options">
+        <div class="container12">
+        
+            <div class="column12 btn-group">
+                    <a class="buttonSmall scroll" href="http://www.rowfluidesign.com/html/blueMax_Single.html#design"><span><i class="fa fa-gear"></i>&nbsp; Specs</span></a>
+                    <a class="buttonSmall scroll" href="http://www.rowfluidesign.com/html/blueMax_Single.html#sizing"><span><i class="fa fa-sort-amount-asc"></i>&nbsp; Sizing</span></a>
+                    <a class="buttonSmall scroll" href="http://www.rowfluidesign.com/html/blueMax_Single.html#order"><span><i class="fa fa-shopping-cart"></i>&nbsp; Order</span></a>
+            </div>
+            
+        </div>
+    </section>
+    
+<!--END OF BOATS SECTION-->
+
+<!--<section class="section divider" id="divider" style="background-image:url(img/dividerPics/dividerPicBlueMax.png)">    	
+</section>-->
+
+<!--ABOUT SECTION-->
+
+    <section class="section alt" id="models">
+        <div class="container12">
+        
+        	<div class="row"> <!--FluidFleet ModelSection-->
+          		<div class="column12" id="modelSection">
+                    <div class="column7" id="modelPic">
+                        <img src="./Fluidesign • Fluid BlueMax Single_files/ModelPic_BlueMax.png">
+                    </div>
+                    
+                    <div class="column5" id="modelDetails">
+                    	<h1>BlueMax Single</h1>
+                        <p>This world-class competitive scull is constructed with 100% high modulus carbon and accented by the exclusive blue rigger. 
+                      The BlueMax is the lightest, stiffest, and winningest scull on the market.</p>
+                        <p>
+                            <!--<a href="#"><i class="fa fa-chevron-right"></i>&nbsp; Single</a>-->
+                            <a href="http://www.rowfluidesign.com/html/blueMax_Double.html"><i class="fa fa-chevron-right"></i>&nbsp; Double/Pair</a>
+                            <a href="http://www.rowfluidesign.com/html/blueMax_Quad.html"><i class="fa fa-chevron-right"></i>&nbsp; Quad/Fours</a>
+                      </p>
+                    </div>
+                </div>
+            </div> <!--End of FluidFleet ModelSection-->
+            
+      </div>
+    </section>
+    
+<!--END OF ABOUT SECTION-->
+
+<!--Design SECTION-->
+
+	<section class="section introDivider" id="introDivider" style="background-image:url(../img/dividerPics/dividerIntroPicRiggerFleet.png)">
+    	<div class="container12">
+        	<div class="column12">
+            	<h1><i class="fa fa-lightbulb-o"></i>&nbsp; Design:</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="design">
+        <div class="container12">
+        
+        	<div class="row" id="centeredText">               
+                <div class="column4" id="">
+                    <h2>Bow Mounted Rigger</h2>
+                    <p>The rigger is mounted closer to the longitudinal center of the boat providing better balance, eliminating pin torque, and allowing for an unmatched range of heights. 
+                    One wrench is all you need and the boat can be rigged in under a minute.</p>
+                </div>
+                
+                <div class="column4" id="">
+                    <h2>Durability</h2>
+                    <p>Fluidesign hulls are uncommonly durable as no core is incorporated in the hull. This structure minimizes impact damage to the skin.</p>
+                </div>
+                
+                <div class="column4" id="">
+                    <h2>Hull Shape</h2>
+                    <p>Fluidesign engineering incorporates industry leading longitudinal stiffness and a decreased drag that will get you across the finish line faster.</p>
+                </div>
+            </div>
+            
+            <!--BACK TO TOP LINK-->
+            <div class="row" id="centeredText">
+            	<div class="column12">
+                	<a href="http://www.rowfluidesign.com/html/blueMax_Single.html#selectors"><i class="fa fa-arrow-circle-up"></i>&nbsp; Back to Top</a>
+                </div>
+            </div>
+            
+      </div>
+    </section>
+    
+<!--END OF Design SECTION-->
+
+<!--Construction SECTION-->
+
+	<section class="section introDivider" id="construction" style="background-image:url(../img/dividerPics/dividerIntroPicBlueMax.png)">
+    	<div class="container12">
+        	<div class="column12">
+            	<h1><i class="fa fa-gears"></i>&nbsp; Construction:</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="">
+        <div class="container12">
+        
+        	<div class="row" id="centeredText">             
+                <div class="column12" id="">
+                    <p>All high modulus carbon that increases the stiffness and reduces the weight from an Elite model by .75 lbs.</p>
+                </div>
+            </div>
+            
+            <!--BACK TO TOP LINK-->
+            <div class="row" id="centeredText">
+            	<div class="column12">
+                	<a href="http://www.rowfluidesign.com/html/blueMax_Single.html#selectors"><i class="fa fa-arrow-circle-up"></i>&nbsp; Back to Top</a>
+                </div>
+            </div>
+            
+      </div>
+    </section>
+    
+<!--END OF Construction SECTION-->
+
+<!--Components SECTION-->
+
+	<section class="section introDivider" id="components" style="background-image:url(../img/dividerPics/dividerIntroPicSeatShoes.png)">
+    	<div class="container12">
+        	<div class="column12">
+            	<h1><i class="fa fa-list-ol"></i>&nbsp; Components:</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="" style="background-image:url(../img/sectionPics/sectionBackgroundSeatShoes.jpg); background-size:cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;">
+        <div class="container12">
+        
+        	<div class="row" id="centeredText">
+                <div class="column4" id="">
+                  <h2>Rigger:</h2>
+                  <p>New modular aluminum bow mounted rigger anodized <em>blue</em>.</p>
+                </div>
+                <div class="column4" id="">
+                  <h2>Seats and rails:</h2>
+                  <p>Carbon Seat with anodized aluminum rails.<br>&nbsp;</p>
+                </div>
+                <div class="column4" id="">
+                  <h2>Footstop:</h2>
+                  <p>Carbon footstop with <em>blue</em> accent.<br>&nbsp;</p>
+                </div>
+                <div class="column4" id="">
+                  <h2>Shoes:</h2>
+                  <p>Premium neoprene shoes.</p>
+                </div>
+                <div class="column4" id="">
+                  <h2>Hardware:</h2>
+                  <p>All stainless steel with anodized <em>blue</em> rigger rails.</p>
+                </div>
+                <div class="column4" id="">
+                  <h2>Adjustments:</h2>
+                  <p>Oarlock height and span, foot stop, rigger, rails, shoes.</p>
+                </div>
+            </div>
+            
+            <!--BACK TO TOP LINK-->
+            <div class="row" id="centeredText">
+            	<div class="column12">
+                	<a href="http://www.rowfluidesign.com/html/blueMax_Single.html#selectors"><i class="fa fa-arrow-circle-up"></i>&nbsp; Back to Top</a>
+                </div>
+            </div>
+            
+      </div>
+    </section>
+    
+<!--END OF Components SECTION-->
+
+<!--Sizing SECTION-->
+
+    <section class="section whiteText sizing" id="sizing" style="background-image:url(../img/sectionPics/sectionBackgroundSizing.jpg); background-size:cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;">
+        <div class="container12">
+        
+        	<div class="row" id="centeredText">      
+                <div class="column12" id="">
+                    <h1 class="introDivider"><i class="fa fa-arrows-alt"></i>&nbsp; Sizing:</h1>
+                    <div class="sizingTable">
+                    <table>
+                      <tbody><tr>
+                          <th></th>
+                          <th>Lightweight</th>
+                          <th>Super Lightweight</th>
+                          <th>Midweight</th>
+                          <th>Intermediate</th>
+                          <th>Heavyweight</th>
+                          <th>Super Heavyweight</th>
+                      </tr>
+                      <tr>
+                          <th>Rower Weight</th>
+                          <td>Up to 140lbs</td>
+                          <td>140lbs - 160lbs</td>
+                          <td>160lbs - 180lbs</td>
+                          <td>180lbs - 200lbs</td>
+                          <td>200lbs - 225lbs</td>
+                          <td>225lbs and Up</td>
+                      </tr>
+                      <tr>
+                          <th>Boat Length</th>
+                          <td>24' 10"</td>
+                          <td>25' 5"</td>
+                          <td>26'</td>
+                          <td>26' 8"</td>
+                          <td>27' 4"</td>
+                          <td>28'</td>
+                      </tr>
+                      <tr>
+                          <th>Boat Width</th>
+                          <td>11"</td>
+                          <td>11"</td>
+                          <td>11"</td>
+                          <td>11"</td>
+                          <td>11 1/4"</td>
+                          <td>11 1/4"</td>
+                      </tr>
+                    </tbody></table>
+                    </div>
+                </div>
+            </div>
+            
+            <!--BACK TO TOP LINK-->
+            <div class="row" id="centeredText">
+            	<div class="column12">
+                	<a href="http://www.rowfluidesign.com/html/blueMax_Single.html#selectors"><i class="fa fa-arrow-circle-up"></i>&nbsp; Back to Top</a>
+                </div>
+            </div>
+            
+      </div>
+    </section>
+    
+<!--END OF Sizing SECTION-->
+
+<!--Order SECTION-->
+
+	<section class="section introDivider order" id="order" style="background-image:url(../img/sectionPics/sectionBackgroundHull.jpg)">
+    	<div class="container12">
+        	<div class="column12">
+            	<h1><i class="fa fa-shopping-cart"></i>&nbsp; Order:</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="section order" id="">
+        <div class="container12">
+        
+        	<div class="row" id="centeredText">
+                <div class="column12" id="">
+                  <h2>$12,500 </h2>
+                  <p>Order a Fluid BlueMax Single today.</p>
+                  <div class="btn-group">
+                      <a class="button dark scroll" href="http://www.rowfluidesign.com/html/orderBlueMaxSingle.html"><span><i class="fa fa-tag"></i>&nbsp; Order Now</span></a>
+                  </div>
+                </div>
+                
+            	<div class="column12" id="">
+                	<p>&nbsp;</p>
+                	<p><span class="caption">Prices in USD. Subject to change.</span></p>
+                </div> 
+            </div>
+            
+            <!--BACK TO TOP LINK-->
+            <div class="row" id="centeredText">
+            	<div class="column12">
+                	<a href="http://www.rowfluidesign.com/html/blueMax_Single.html#selectors"><i class="fa fa-arrow-circle-up"></i>&nbsp; Back to Top</a>
+                </div>
+            </div>
+            
+      </div>
+    </section>
+    
+<!--END OF Order SECTION-->
+
+<!--FOOTER SECTION-->
+    
+    <footer id="footer">
+        <div class="container12">
+            <div class="column12">
+                <p>175 Exeter Road, Unit C, London, Ontario, Canada, N6L 1A4</p>
+				<p>Phone: 519-652-2272 | Fax: 519-652-3972</p>
+				<p>Email: <a href="mailto:fluidesign@rowfluidesign.com">fluidesign@rowfluidesign.com</a></p>
+                <p>Fluidesign Inc. Copyright © 2016. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+<!--END OF FOOTER SECTION-->
+
+
+
+</body></html>

@@ -1,0 +1,94 @@
+body{background:black; }
+#banner{width: 1336px; position: center }
+
+.foot{margin: 0 auto;
+text-align: center;}
+
+.left{text-align: center;;
+border: 10px;
+width: 1100px;
+margin: 0 auto;
+f
+}
+
+.wrapper{ background:#6C758C;
+width: 1250px;
+margin: 0 auto}
+
+nav {width: 1250px;
+    list-style-type: none;
+    margin: 60px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    margin: 0 auto;
+
+}
+
+.home {
+    float: left;
+margin-right: 210px;
+text-align: right;
+background-color: #0E171B}
+
+.alumni{
+    float: left;
+margin-right: 210px;
+text-align: right;
+background-color: #0E171B}
+
+.news {
+    float: left;
+margin-right: 210px;
+text-align: right;
+background-color: #0E171B}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align:0 auto;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+
+.para1{ width: 800px;
+margin: 0 auto ;
+margin: 30px 290px 100px 0;
+float: right;}
+
+.para2{ width: 800px;
+margin: 0 auto ;
+margin: 30px 290px 100px 0;
+float: right;
+text-align: left;}
+
+.para3{ width: 800px;
+margin: 0 auto ;
+margin: 0px 230px 100px 0px;
+float: right;}
+
+.para4{text-align: center;
+  width: 800px;
+  margin: 0 auto;}
+
+p{margin-left: 60px }
+h1 {text-align: center;
+font-size: 50px}
+
+.pete{ margin: 30px;}
+
+.ron{
+width: 100px;}
+
+h4{ text-align: center;
+  font-size: 40px}
+h5{ font-size: 20px;
+  margin: 30px
+}
+
+.para5{ width: 800px;
+text-align: left;
+margin: 60px}
+
+.shark{width: 1250px;}

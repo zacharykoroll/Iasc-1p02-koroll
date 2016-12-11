@@ -1,0 +1,13 @@
+@charset "UTF-8";
+#detailsPic.fleetCarbon {
+	background-image: url(../img/detailsPics/fleetCarbon.png);
+}
+#detailsPic.carbonCarbon {
+	background-image: url(../img/detailsPics/carbonCarbon.png);
+}
+#detailsPic.carbonEliteCarbon {
+	background-image: url(../img/detailsPics/carbonEliteCarbon.png);
+}
+#detailsPic.blueMaxCarbon {
+	background-image: url(../img/detailsPics/blueMaxCarbon.png);
+}
