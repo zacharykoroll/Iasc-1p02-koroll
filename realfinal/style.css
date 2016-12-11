@@ -1,0 +1,165 @@
+body{background:black; }
+#banner{width: 1336px; position: center }
+
+
+
+.left{text-align: center;
+border: 10px;
+width: 1100px;
+margin: 0 auto;
+f
+}
+
+.wrapper{ background:#6C758C;
+width: 1250px;
+margin: 0 auto}
+
+nav {width: 1250px;
+    list-style-type: none;
+    margin: 60px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    margin: 0 auto;
+    z-index: 10;
+}
+.dot{text-align: center;}
+.home {
+    float: left;
+margin-right: 210px;
+text-align: right;
+background-color: #0E171B}
+
+.foot{margin: 0 auto;
+text-align: center;}
+
+.alumni{
+    float: left;
+margin-right: 210px;
+text-align: right;
+background-color: #0E171B}
+
+.news {
+    float: left;
+margin-right: 210px;
+text-align: right;
+background-color: #0E171B}
+
+
+li a {
+    display: block;
+    color: white;
+    margin:0 auto;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+h1{ font-size:70px;
+margin: 30px}
+
+h2 { margin: 30px}
+
+.champs{margin: 50px;
+float: left;}
+
+.p2{width: 1100px;
+text-align: center;
+margin: 0 auto;}
+
+.ouaimg{height: 450px;
+float: right;
+margin: 0px 30px 0px 0px}
+
+h3{margin: 30px;
+font-size: 30px}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #666666;
+}
+
+/* Slideshow box */
+.slideshow-container {
+  width: 1050px;
+
+  position:  relative;
+margin:0 auto;}
+
+/*Next & prev butt*/
+.prev, .next {
+  cursor: crosshair;;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* put next button to right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* hover*/
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/*  text  for pics */
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: relative;;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* 1/6 on pic */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* picture selector */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  background-color: #bbb;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+
+
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading  */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

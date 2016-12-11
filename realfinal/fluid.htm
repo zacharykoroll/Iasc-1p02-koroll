@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://www.rowfluidesign.com/# -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	
+    <title>Fluidesign • London, Ontario</title>
+    <meta name="description" content=".">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale = 1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Fluidesign is an elite and club shell manufacturer in London, Ontario, that has set world records and won golds since 1999.">
+    <meta name="keywords" content="Fluidesign, fluidesign, fluid, Fluid, design, Design, Gord Henry, gord, Gord, henry, Henry, rowing, Rowing, shells, Shells, rowing shells, competitve, competitive rowing, racing shells, rowing london, london, ontario, row, rowfluidesign">
+    <meta name="location" content="London, Ontario, Canada">
+	<meta name="language" content="English">
+	<meta name="author" content="Pilot Concepts">
+	<meta name="copyright" content="2016">
+    
+    <link rel="shortcut icon" href="http://www.rowfluidesign.com/favicon.ico">
+
+    <link href="./fluid_files/css" rel="stylesheet" type="text/css">
+    <link href="./fluid_files/css(1)" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./fluid_files/main.css">
+    <link href="./fluid_files/detailsPics.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./fluid_files/1140.css">
+    <link rel="stylesheet" href="./fluid_files/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./fluid_files/common.css">
+    <link rel="stylesheet" type="text/css" href="./fluid_files/default.css">
+    <link rel="stylesheet" href="./fluid_files/normalize.css">
+
+	<script src="./fluid_files/modernizr-2.6.2.min.js"></script>
+	<script type="text/javascript" async="" src="./fluid_files/embed.js"></script>
+    <script type="text/javascript" src="./fluid_files/jquery.min.js"></script>
+    <script type="text/javascript" src="./fluid_files/jquery.iosslider.js"></script>
+    <script type="text/javascript" src="./fluid_files/jquery.iosslider.min.js"></script>
+    <script type="text/javascript" src="./fluid_files/jquery.easing-1.3.js"></script>
+    
+	<!--RESPONSIVE NAV SCRIPT-->
+	<script>
+        $(function() {
+            var pull 		= $('#pull');
+                    menu 		= $('nav ul');
+    
+            $(pull).on('click', function(e) {
+                e.preventDefault();
+                menu.slideToggle();
+            });
+            
+            $(window).resize(function(){
+                var w = $(this).width();
+    
+                if(w > 800 && menu.is(':hidden')) {
+                    menu.removeAttr('style');
+                }
+            });
+    
+            $('li').on('click', function(e) {				
+                var w = $(window).width();
+                if(w < 800 ) {
+                    menu.slideToggle();
+                }
+            });
+    
+            $('.panel').height($(window).height());
+            
+        });
+    </script>
+    <!--END OF RESPONSIVE NAV SCRIPT-->
+    
+    <!--HERO ROTATOR SCRIPT-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			
+			$('.iosSlider').iosSlider({
+					desktopClickDrag: true,
+					snapToChildren: true,
+					infiniteSlider: true,
+					snapSlideCenter: true,
+					navSlideSelector: '.selectors .item',
+					navPrevSelector: '.sliderContainer .slideSelectors .prev',
+					navNextSelector: '.sliderContainer .slideSelectors .next',
+					onSlideComplete: slideComplete,
+					onSliderLoaded: sliderLoaded,
+					onSlideChange: slideChange,
+					autoSlide: true,
+					autoSlideTimer: 2000,
+					scrollbar: true,
+					scrollbarContainer: '.sliderContainer .scrollbarContainer',
+					scrollbarMargin: '0',
+					scrollbarBorderRadius: '0',
+					keyboardControls: true
+				});
+			
+		}); 
+		
+		function slideChange(args) {
+			
+			$('.selectors .item').removeClass('selected');
+			$('.selectors .item:eq(' + (args.currentSlideNumber - 1) + ')').addClass('selected');
+			
+		}
+		
+		function slideComplete(args) {
+			
+			if(!args.slideChanged) return false;
+				
+			$(args.sliderObject).find('.text1, .text2').attr('style', '');
+			
+			$(args.currentSlideObject).find('.text1').animate({
+				left: '30px',
+				opacity: '1'
+			}, 700, 'easeOutQuint');
+			
+			$(args.currentSlideObject).find('.text2').delay(200).animate({
+				left: '30px',
+				opacity: '1'
+			}, 600, 'easeOutQuint');
+			
+		}
+		
+		function sliderLoaded(args) {
+				
+			$(args.sliderObject).find('.text1, .text2').attr('style', '');
+			
+			$(args.currentSlideObject).find('.text1').animate({
+				left: '30px',
+				opacity: '1'
+			}, 700, 'easeOutQuint');
+			
+			$(args.currentSlideObject).find('.text2').delay(200).animate({
+				left: '30px',
+				opacity: '1'
+			}, 600, 'easeOutQuint');
+			
+			slideChange(args);
+			
+		}
+	</script>
+    <!--END OF HERO ROTATOR SCRIPT-->
+
+</head>
+
+<body style="">
+
+<!--NAV SECTION-->
+
+	<section id="nav">
+    	<logo>
+        	<ul class="logo">
+        		<li><a href="http://www.rowfluidesign.com/index.html"><img src="./fluid_files/fluid_logo_220x90_blue.png"></a></li>
+           	</ul>
+        </logo>
+    	<nav class="clearfix">
+            <ul class="clearfix">
+                <li><a href="http://www.rowfluidesign.com/#">Fluidesign Boats</a></li>
+                <li><a href="http://www.rowfluidesign.com/html/about.html">About Us</a></li>
+                <li><a href="http://www.rowfluidesign.com/html/support.html">Support</a></li>
+                <li><a href="http://www.rowfluidesign.com/html/resale.html">Resale</a></li>
+                <li><a href="http://www.rowfluidesign.com/#contact">Contact Us</a></li>
+            </ul>
+            <a href="javascript:;" id="pull">Menu</a>
+        </nav>
+	</section>
+    
+<!--END OF NAV SECTION-->
+
+<section id="buffer" class="clearfix"></section>
+
+<!--HERO SECTION-->
+
+	<section id="hero">
+    	<div class="container clearfix">
+			
+			<div class="iosSlider" style="position: relative; top: 0px; left: 0px; overflow: hidden; z-index: 1; perspective: 1000px; backface-visibility: hidden; width: 1408px; height: 380px;">
+			
+				<div class="slider" style="position: relative; cursor: -webkit-grab; backface-visibility: hidden; width: 5632px; transform: matrix(1, 0, 0, 1, -9856, 0);">
+
+					<div class="item item1" style="width: 1408px; overflow: hidden; position: absolute; transform: matrix(1, 0, 0, 1, 11264, 0); backface-visibility: hidden;">
+                        <a href="http://www.rowfluidesign.com/html/fluidFleet_Single.html"><div class="inner">
+                            <img src="./fluid_files/FluidFleet_sliderPic_GenericCarbon3.jpg">
+                            <div class="text1" style=""><span>FLUID FLEET</span></div>                
+                            <div class="text2" style=""><span><i class="fa fa-angle-right"></i>Aesthetically sharp and durable</span></div>
+                        </div></a>
+                  </div>
+                    
+                    <div class="item item2" style="width: 1408px; overflow: hidden; position: absolute; transform: matrix(1, 0, 0, 1, 7040, 0); backface-visibility: hidden;">
+                        <a href="http://www.rowfluidesign.com/html/fluidCarbon_Single.html"><div class="inner">
+                            <img src="./fluid_files/CarbonElite_sliderPic_genericCarbon.jpg">                             
+                            <div class="text1" style=""><span>FLUID CARBON</span></div>                
+                            <div class="text2" style=""><span><i class="fa fa-angle-right"></i>Accelertation through design and aesthetics</span></div>
+                      </div></a>
+                  </div>
+                    
+                    <div class="item item3" style="width: 1408px; overflow: hidden; position: absolute; transform: matrix(1, 0, 0, 1, 8448, 0); backface-visibility: hidden;">
+                        <a href="http://www.rowfluidesign.com/html/fluidCarbonElite_Single.html"><div class="inner">
+                            <img src="./fluid_files/FluidCarbon_sliderPic_CarbonLogo.jpg">
+                            <div class="text1" style=""><span>FLUID CARBON ELITE</span></div>                
+                            <div class="text2" style=""><span><i class="fa fa-angle-right"></i>Known results by engineered Performance</span></div>
+                        </div></a>
+                  </div>
+                    
+                    <div class="item item4" style="width: 1408px; overflow: hidden; position: absolute; transform: matrix(1, 0, 0, 1, 9856, 0); backface-visibility: hidden;">
+                        <a href="http://www.rowfluidesign.com/html/blueMax_Single.html"><div class="inner">
+                            <img src="./fluid_files/BlueMax_sliderPic_genericCarbonLogo.jpg">
+                            <div class="text1" style="left: 30.5866px; opacity: 0.991619;"><span>BLUE MAX</span></div>                
+                            <div class="text2" style="left: 36.2424px; opacity: 0.910823;"><span><i class="fa fa-angle-right"></i>World Class performance</span></div>
+                        </div></a>
+                    </div>
+				
+				</div>
+				
+				<!--<div class = 'prevContainer'>
+					<div class = 'prev'>Prev slide</div>
+				</div>
+				
+				<div class = 'nextContainer'>
+					<div class = 'next'>Next slide</div>
+				</div>-->
+				
+				<div class="selectorsBlock">
+				
+					<div class="selectors">
+						<div class="item first" style="cursor: pointer;"></div>
+						<div class="item" style="cursor: pointer;"></div>
+						<div class="item" style="cursor: pointer;"></div>
+						<div class="item selected" style="cursor: pointer;"></div>
+					</div>
+					
+				</div>
+
+			<i class="i9890" style="position: absolute; right: 10px; bottom: 10px; z-index: 1000; font-style: normal; background: rgb(255, 255, 255); opacity: 0.2;"> </i><i class="i9890" style="position: absolute; right: auto; bottom: auto; z-index: 1000; font-style: normal; background: rgb(255, 255, 255); opacity: 0.2; top: 10px; left: 10px;"> </i></div>
+						
+		</div>	
+    </section>
+
+<!--END OF HERO SECTION-->
+
+<!-- BOATS SECTION-->
+
+    <section class="section boats" id="boats">
+        <div class="container12">
+        
+        	<div class="column10 prefix1 whiteText">
+                <h1>Our Boats</h1>
+                <p>Fluidesign manufactures Elite racing shells with state of the art design and construction. The meticulous carbon engineering delivers a durable, stiff, and fast experience with each row. Fluidesign's exclusive clear finishes highlights the beauty of carbon while reducing maintenance to maximize performance. Fluidesign shells are simply too beautiful not to keep clear.</p>
+            </div>
+            
+            <div class="row"></div>
+            
+        </div>
+    </section>
+    
+<!--END OF BOATS SECTION-->
+
+<!--ABOUT SECTION-->
+
+    <section class="section alt" id="models">
+        <div class="container12">
+        
+        	<div class="row"> <!--FluidFleet ModelSection-->
+          		<div class="column12" id="modelSection">
+                    <div class="column7" id="modelPic">
+                        <img src="./fluid_files/ModelPic_FluidFleet.png">
+                    </div>
+                    
+                    <div class="column5" id="modelDetails">
+                    	<h1>Fluid Fleet</h1>
+                        <p>Aesthetically sharp and durable</p>
+                        	<a href="http://www.rowfluidesign.com/html/fluidFleet_Single.html"><div id="detailsPic" class="fleetCarbon"></div></a>
+                        <p>
+                            <a href="http://www.rowfluidesign.com/html/fluidFleet_Single.html"><i class="fa fa-chevron-right"></i>&nbsp; Single</a>
+                          <a href="http://www.rowfluidesign.com/html/fluidFleet_Double.html"><i class="fa fa-chevron-right"></i>&nbsp; Double/Pair</a><br>
+                            <a href="http://www.rowfluidesign.com/html/fluidFleet_Quad.html"><i class="fa fa-chevron-right"></i>&nbsp; Quad/Four</a>
+                      </p>
+                    </div>
+                </div>
+            </div> <!--End of FluidFleet ModelSection-->
+            
+            <div class="row"> <!--FluidCarbon ModelSection-->
+          		<div class="column12" id="modelSection">
+                    <div class="column7" id="modelPic">
+                        <img src="./fluid_files/ModelPic_FluidCarbon.png">
+                    </div>
+                    
+                    <div class="column5" id="modelDetails">
+                    	<h1>Fluid Carbon</h1>
+                        <p>Accelertation through design and aesthetics</p>
+                   	  <a href="http://www.rowfluidesign.com/html/fluidCarbon_Single.html"><div id="detailsPic" class="carbonCarbon"></div></a>
+                        <p>
+                        	<a href="http://www.rowfluidesign.com/html/fluidCarbon_Single.html"><i class="fa fa-chevron-right"></i>&nbsp; Single</a>
+                            <a href="http://www.rowfluidesign.com/html/fluidCarbon_Double.html"><i class="fa fa-chevron-right"></i>&nbsp; Double/Pair</a><br>
+                            <a href="http://www.rowfluidesign.com/html/fluidCarbon_Quad.html"><i class="fa fa-chevron-right"></i>&nbsp; Quad/Four</a>
+                      </p>
+                    </div>
+                </div>
+            </div> <!--End of FluidCarbon ModelSection-->
+            
+            <div class="row"> <!--CarbonElite ModelSection-->
+          		<div class="column12" id="modelSection">
+                    <div class="column7" id="modelPic">
+                        <img src="./fluid_files/ModelPic_CarbonElite.png">
+                    </div>
+                    
+                    <div class="column5" id="modelDetails">
+                    	<h1>Fluid Carbon Elite</h1>
+                        <p>Known results by engineered Performance</p>
+                        	<a href="http://www.rowfluidesign.com/html/fluidCarbonElite_Single.html"><div id="detailsPic" class="carbonEliteCarbon"></div></a>
+                        <p>
+                        	<a href="http://www.rowfluidesign.com/html/fluidCarbonElite_Single.html"><i class="fa fa-chevron-right"></i>&nbsp; Single</a>
+                       	  	<a href="http://www.rowfluidesign.com/html/fluidCarbonElite_Double.html"><i class="fa fa-chevron-right"></i>&nbsp; Double/Pair</a><br>
+                            <a href="http://www.rowfluidesign.com/html/fluidCarbonElite_Quad.html"><i class="fa fa-chevron-right"></i>&nbsp; Quad/Four</a>
+                        </p>
+                    </div>
+                </div>
+            </div> <!--End of CarbonElite ModelSection-->
+            
+            <div class="row"> <!--BlueMax ModelSection-->
+          		<div class="column12" id="modelSection">
+                    <div class="column7" id="modelPic">
+                        <img src="./fluid_files/ModelPic_BlueMax.png">
+                    </div>
+                    
+                  <div class="column5" id="modelDetails">
+                    	<h1>BlueMax</h1>
+                        <p>World Class performance </p>
+                        	<a href="http://www.rowfluidesign.com/html/blueMax_Single.html"><div id="detailsPic" class="blueMaxCarbon"></div></a>
+                        <p>
+                        	<a href="http://www.rowfluidesign.com/html/blueMax_Single.html"><i class="fa fa-chevron-right"></i>&nbsp; Single</a>
+                        	<a href="http://www.rowfluidesign.com/html/blueMax_Double.html"><i class="fa fa-chevron-right"></i>&nbsp; Double/Pair</a><br>
+                            <a href="http://www.rowfluidesign.com/html/blueMax_Quad.html"><i class="fa fa-chevron-right"></i>&nbsp; Quad/Four</a>
+                        </p>
+                  </div>
+                </div>
+            </div> <!--End of BlueMax ModelSection-->
+            
+      </div>
+    </section>
+    
+<!--END OF ABOUT SECTION-->
+
+	<section class="section divider" id="divider" style="background-image:url(img/dividerPics/dividerPicSeat.png)">    	
+    </section>
+
+<!-- CONTACT SECTION-->
+
+  <section class="section" id="contact">
+        <div class="container12">
+            <div class="column10 prefix1">
+                <h1>Contact Us</h1>
+                <div class="column4">
+                    <p>175 Exeter Road, Unit C</p>
+                    <p>London, Ontario, Canada</p>
+                    <p>N6L 1A4</p>
+                    <br>
+                    <p><i class="fa fa-phone-square fa-lg"></i>&nbsp; 519-652-2272</p>
+                    <p><i class="fa fa-fax fa-lg"></i>&nbsp; 519-652-3972</p>
+                    <p><i class="fa fa-envelope-square fa-lg"></i>&nbsp; <a href="mailto:fluidesign@rowfluidesign.com">fluidesign@rowfluidesign.com</a></p>
+                    
+                </div>
+                <div class="column5">If you've got any questions or comments and would like to get a hold of us, please don't hesitate to contact us using the form below. <br><br>
+                	<form action="http://www.rowfluidesign.com/contact.php" method="post" id="contactFormStyle">
+              
+                      <input name="name" type="text" id="name" tabindex="1" placeholder="   Name*" style="font-family:FontAwesome">
+                      
+                      <input name="email" type="text" id="email" tabindex="2" placeholder="   Email*" style="font-family:FontAwesome">
+                      <br>
+                      <textarea class="scroll-pane" name="comments" id="comments" tabindex="5" placeholder="What can we do for you?*" style="font-family:FontAwesome"></textarea><br>
+                      
+                      <input name="submit" type="submit" class="submit" tabindex="6" onclick="MM_validateForm(&#39;name&#39;,&#39;&#39;,&#39;R&#39;,&#39;email&#39;,&#39;&#39;,&#39;RisEmail&#39;,&#39;phone&#39;,&#39;&#39;,&#39;R&#39;,&#39;comments&#39;,&#39;&#39;,&#39;R&#39;);return document.MM_returnValue">
+                      
+                  </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<!--END OF CONTACT SECTION-->
+
+<!--FOOTER SECTION-->
+    
+    <footer id="footer">
+        <div class="container12">
+            <div class="column12">
+                <p>175 Exeter Road, Unit C, London, Ontario, Canada, N6L 1A4</p>
+				<p>Phone: 519-652-2272 | Fax: 519-652-3972</p>
+				<p>Email: <a href="mailto:fluidesign@rowfluidesign.com">fluidesign@rowfluidesign.com</a></p>
+                <p>Fluidesign Inc. Copyright © 2016. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+<!--END OF FOOTER SECTION-->
+
+
+
+<iframe style="display: none;" src="./fluid_files/saved_resource.html"></iframe></body></html>

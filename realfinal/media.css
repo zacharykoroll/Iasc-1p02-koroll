@@ -1,0 +1,95 @@
+body{background:black; }
+#banner{width: 1450px;}
+
+.nav {width: 1250px;
+    list-style-type: none;
+    margin: 60px;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    margin: 0 auto;
+}
+p{text-align: center;
+margin: 15px}
+img{ float: left;
+margin: 10px}
+.home {
+    float: left;
+margin-right: 210px;
+text-align: right;
+background-color: #0E171B}
+
+.alumni{
+    float: left;
+margin-right: 210px;
+text-align: right;
+background-color: #0E171B}
+
+.news {
+    float: left;
+margin-right: 210px;
+text-align: right;
+background-color: #0E171B}
+
+h1{ height: 180px;
+width: 1251px;
+margin: 0 auto}
+
+h1{text-align: center;
+height: 40px;
+width: 1250px;
+margin:0 auto;
+padding: 10px 0px 0px 0px;
+background-color: #6C758C}
+
+
+.backdrop{ background-color: #6C758C;
+width: 1250px;
+height: auto;
+margin: 0 auto;}
+
+/*athletes*/
+#tim{ width: 1249px;
+height: 330px;
+margin: 2.5px;
+background-color: #6C758C;
+margin-left: 2px;
+float: left ; }
+
+.left{ width: 620;
+float: left;
+height: 410px;
+margin: 2.5px;
+}
+
+.Gail{ width: 620px;
+float: right;
+height: 410px;
+margin: 2.5px
+}
+.para1{width: 1250px;
+  background-color: #6C758C;
+margin: 0 auto;
+}
+
+
+table{float: left;
+position:relative ;}
+
+.nav1 {
+    float: left;
+margin-right: 210px;
+text-align: right;}
+
+li a {
+    display: block;
+    color: white;
+    margin:0 auto;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #666666;
+}
